@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Tilt+Warp&display=swap');@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Hind Madurai', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+
+.container {
+     display: flex;
+    gap: 50px;
+}
+
+.wrapper {
+    margin: 100px;
+    margin-left: -20%;
+    position: absolute;
+    transition: .5s ease;
+}
+.wrapper:nth-child(2) {
+    left: 90px;
+}
+.wrapper:nth-child(3) {
+    left: 180px;
+}
+.heart {
+    width: 50px; 
+    height: 50px; 
+    background-color: red; 
+    transform: rotate(45deg);
+    position: relative; 
+    margin-top: 200px;
+    left: 100px;
+}
+
+.heart::before,
+.heart::after {
+    content : ''; 
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%; 
+    position: absolute;
+}
+.heart::before {
+    top: -20px;
+    left: 0;
+}
+
+.heart::after {
+    top: 0;
+    left: -20px;
+}
+button {
+   all: unset;
+   width: 200px;
+   height: 50px;
+   text-align: center;
+   border: 1px solid black;
+   border-radius: 25px;
+   position: absolute;
+   top: 50%;
+   left: 100px;
+}
+.stop {
+    margin-left: 210px;
+}
+audio {
+    margin: 100px;
+    opacity: 0;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
