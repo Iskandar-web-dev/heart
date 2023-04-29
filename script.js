@@ -16,7 +16,7 @@ let isPlaying = false
         }, 2000)
         setTimeout(() => {
             heart.forEach(el => {
-                el.style.marginLeft = '-20%'
+                el.style.marginLeft = '-100%'
             })
         }, 2550)
 
