@@ -63,7 +63,7 @@ button {
    border: 1px solid black;
    border-radius: 25px;
    position: absolute;
-   top: 50%;
+   top: 60%;
    left: 100px;
 }
 .stop {
